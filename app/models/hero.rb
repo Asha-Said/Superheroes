@@ -1,4 +1,4 @@
 class Hero < ApplicationRecord
-has_many :heropowers   
-has _many :powers, through: :heropowers 
+has_many :hero_powers   
+has _many :powers, through: :hero_powers 
 end
